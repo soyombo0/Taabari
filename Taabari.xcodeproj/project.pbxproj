@@ -7,25 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B8B0FDA29A68F46001F3425 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8B0FD929A68F46001F3425 /* SettingsView.swift */; };
 		3B91AF6F29A539B3004526AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B91AF6E29A539B3004526AD /* AppDelegate.swift */; };
-		3B91AF7129A539B3004526AD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B91AF7029A539B3004526AD /* SceneDelegate.swift */; };
-		3B91AF7329A539B3004526AD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B91AF7229A539B3004526AD /* ViewController.swift */; };
-		3B91AF7629A539B3004526AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B91AF7429A539B3004526AD /* Main.storyboard */; };
 		3B91AF7929A539B3004526AD /* Taabari.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3B91AF7729A539B3004526AD /* Taabari.xcdatamodeld */; };
 		3B91AF7B29A539B5004526AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B91AF7A29A539B5004526AD /* Assets.xcassets */; };
 		3B91AF7E29A539B5004526AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B91AF7C29A539B5004526AD /* LaunchScreen.storyboard */; };
+		3B91AF8629A53AA7004526AD /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B91AF8529A53AA7004526AD /* Question.swift */; };
+		3B91AF8C29A53D04004526AD /* QuizViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B91AF8B29A53D04004526AD /* QuizViewModel.swift */; };
+		3B91AF8E29A53FCD004526AD /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B91AF8D29A53FCD004526AD /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3B8B0FD929A68F46001F3425 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		3B91AF6B29A539B3004526AD /* Taabari.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Taabari.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B91AF6E29A539B3004526AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3B91AF7029A539B3004526AD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3B91AF7229A539B3004526AD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3B91AF7529A539B3004526AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3B91AF7829A539B3004526AD /* Taabari.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Taabari.xcdatamodel; sourceTree = "<group>"; };
 		3B91AF7A29A539B5004526AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B91AF7D29A539B5004526AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3B91AF7F29A539B5004526AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B91AF8529A53AA7004526AD /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		3B91AF8B29A53D04004526AD /* QuizViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewModel.swift; sourceTree = "<group>"; };
+		3B91AF8D29A53FCD004526AD /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		3B91AF8F29A5411A004526AD /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +61,49 @@
 		3B91AF6D29A539B3004526AD /* Taabari */ = {
 			isa = PBXGroup;
 			children = (
+				3B91AF8929A53AE5004526AD /* App */,
+				3B91AF8A29A53AED004526AD /* Supporting */,
+				3B91AF8729A53AD4004526AD /* Model */,
+				3B91AF8829A53ADF004526AD /* View */,
+			);
+			path = Taabari;
+			sourceTree = "<group>";
+		};
+		3B91AF8729A53AD4004526AD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3B91AF8529A53AA7004526AD /* Question.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3B91AF8829A53ADF004526AD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3B91AF8B29A53D04004526AD /* QuizViewModel.swift */,
+				3B91AF8D29A53FCD004526AD /* MainViewController.swift */,
+				3B8B0FD929A68F46001F3425 /* SettingsView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3B91AF8929A53AE5004526AD /* App */ = {
+			isa = PBXGroup;
+			children = (
 				3B91AF6E29A539B3004526AD /* AppDelegate.swift */,
-				3B91AF7029A539B3004526AD /* SceneDelegate.swift */,
-				3B91AF7229A539B3004526AD /* ViewController.swift */,
-				3B91AF7429A539B3004526AD /* Main.storyboard */,
-				3B91AF7A29A539B5004526AD /* Assets.xcassets */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		3B91AF8A29A53AED004526AD /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
 				3B91AF7C29A539B5004526AD /* LaunchScreen.storyboard */,
+				3B91AF7A29A539B5004526AD /* Assets.xcassets */,
 				3B91AF7F29A539B5004526AD /* Info.plist */,
 				3B91AF7729A539B3004526AD /* Taabari.xcdatamodeld */,
 			);
-			path = Taabari;
+			path = Supporting;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -112,6 +148,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ko,
 			);
 			mainGroup = 3B91AF6229A539B3004526AD;
 			productRefGroup = 3B91AF6C29A539B3004526AD /* Products */;
@@ -130,7 +167,6 @@
 			files = (
 				3B91AF7E29A539B5004526AD /* LaunchScreen.storyboard in Resources */,
 				3B91AF7B29A539B5004526AD /* Assets.xcassets in Resources */,
-				3B91AF7629A539B3004526AD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,28 +177,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B91AF8629A53AA7004526AD /* Question.swift in Sources */,
 				3B91AF7929A539B3004526AD /* Taabari.xcdatamodeld in Sources */,
-				3B91AF7329A539B3004526AD /* ViewController.swift in Sources */,
+				3B91AF8C29A53D04004526AD /* QuizViewModel.swift in Sources */,
+				3B8B0FDA29A68F46001F3425 /* SettingsView.swift in Sources */,
 				3B91AF6F29A539B3004526AD /* AppDelegate.swift in Sources */,
-				3B91AF7129A539B3004526AD /* SceneDelegate.swift in Sources */,
+				3B91AF8E29A53FCD004526AD /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		3B91AF7429A539B3004526AD /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3B91AF7529A539B3004526AD /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		3B91AF7C29A539B5004526AD /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				3B91AF7D29A539B5004526AD /* Base */,
+				3B91AF8F29A5411A004526AD /* ko */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -174,6 +205,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -220,7 +252,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -234,6 +266,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -274,7 +307,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -293,12 +326,12 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = JX5SWB7X9Y;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Taabari/Info.plist;
+				INFOPLIST_FILE = Taabari/Supporting/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -306,9 +339,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = soyombo.Taabari;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -321,12 +357,12 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = JX5SWB7X9Y;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Taabari/Info.plist;
+				INFOPLIST_FILE = Taabari/Supporting/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -334,9 +370,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = soyombo.Taabari;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
