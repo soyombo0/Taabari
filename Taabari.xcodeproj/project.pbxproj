@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3B8B0FDA29A68F46001F3425 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8B0FD929A68F46001F3425 /* SettingsView.swift */; };
+		3B8B0FDC29A69076001F3425 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8B0FDB29A69076001F3425 /* ItemCell.swift */; };
 		3B91AF6F29A539B3004526AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B91AF6E29A539B3004526AD /* AppDelegate.swift */; };
 		3B91AF7929A539B3004526AD /* Taabari.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3B91AF7729A539B3004526AD /* Taabari.xcdatamodeld */; };
 		3B91AF7B29A539B5004526AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B91AF7A29A539B5004526AD /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		3B8B0FD929A68F46001F3425 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		3B8B0FDB29A69076001F3425 /* ItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
 		3B91AF6B29A539B3004526AD /* Taabari.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Taabari.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B91AF6E29A539B3004526AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3B91AF7829A539B3004526AD /* Taabari.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Taabari.xcdatamodel; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 				3B91AF8B29A53D04004526AD /* QuizViewModel.swift */,
 				3B91AF8D29A53FCD004526AD /* MainViewController.swift */,
 				3B8B0FD929A68F46001F3425 /* SettingsView.swift */,
+				3B8B0FDB29A69076001F3425 /* ItemCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -181,6 +184,7 @@
 				3B91AF7929A539B3004526AD /* Taabari.xcdatamodeld in Sources */,
 				3B91AF8C29A53D04004526AD /* QuizViewModel.swift in Sources */,
 				3B8B0FDA29A68F46001F3425 /* SettingsView.swift in Sources */,
+				3B8B0FDC29A69076001F3425 /* ItemCell.swift in Sources */,
 				3B91AF6F29A539B3004526AD /* AppDelegate.swift in Sources */,
 				3B91AF8E29A53FCD004526AD /* MainViewController.swift in Sources */,
 			);
