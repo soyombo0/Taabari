@@ -9,4 +9,7 @@ import Foundation
 
 class QuestionApi {
     
+    func fetchData() {
+        
+    }
 }
