@@ -10,6 +10,6 @@ import Foundation
 class QuestionApi {
     
     func fetchData() {
-        
+        URLSession.shared.delegate = self
     }
 }
